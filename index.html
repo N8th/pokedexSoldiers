@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Buffalo Soldiers</title>
+
+    <link
+      rel="icon"
+      style="filter: blur(5px)"
+      type="image/png"
+      href="/images/icon.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <div class="header">
+      <img
+        src="images/eggJumping.gif"
+        alt="Egg Jumping"
+        class="jumpingEgg"
+        id="eggImage"
+      />
+      <span class="unownText">Buffalo <br />Soldiers</span>
+    </div>
+
+    <div class="imageGrid">
+      <div class="gridImage flashSelect">
+        <img src="images/determinedragon.png" alt="Determinedragon" />
+        <div class="pokemonName pixelFont">Determinedragon</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/adaptox.png" alt="Adaptox" />
+        <div class="pokemonName pixelFont">Adaptox</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/leaderaptor.png" alt="Leaderaptor" />
+        <div class="pokemonName pixelFont">Leaderaptor</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/teamander.png" alt="Teamander" />
+        <div class="pokemonName pixelFont">Teamander</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/friendlebub.png" alt="Friendlebub" />
+        <div class="pokemonName pixelFont">Friendlebub</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/creativire.png" alt="Creativire" />
+        <div class="pokemonName pixelFont">Creativire</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/curiospike.png" alt="Curiospike" />
+        <div class="pokemonName pixelFont">Curiospike</div>
+      </div>
+      <div class="gridImage flashSelect">
+        <img src="images/optimibright.png" alt="Optimibright" />
+        <div class="pokemonName pixelFont">Optimibright</div>
+      </div>
+    </div>
+    <div id="pokemonOverlay">
+      <div id="overlayContent">
+        <button id="closeOverlay">X</button>
+        <div id="leftSide">
+          <img id="overlayImage" src="" alt="Pokemon Image" />
+
+          <!-- <button class="arrow-button" id="prevPokemon">&#8592;</button> -->
+          <div id="overlayName" class="pokemonName pixelFont"></div>
+          <!-- <button class="arrow-button" id="nextPokemon">&#8594;</button> -->
+        </div>
+        <div id="rightSide">
+          <div id="overlayText"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
